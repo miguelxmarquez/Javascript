@@ -1,0 +1,38 @@
+.twc {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	font-size: 0.8rem;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.twc-header {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.twc-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.twc-info-username {
+	opacity: 0.6;
+}
+
+.twc-avatar {
+	width: 48px;
+	height: 48px;
+	border-radius: 1000px;
+}
+
+.twc-button {
+	margin-left: 16px;
+	border: 0;
+	border-radius: 999px;
+	padding: 6px 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
