@@ -1,0 +1,20 @@
+{
+  "name": "aws-redshift",
+  "version": "1.0.0",
+  "description": "AWS Redshift Implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "redshift",
+    "javascript"
+  ],
+  "author": "Miguel Márquez",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-redshift": "^3.623.0",
+    "@aws-sdk/types": "^3.609.0"
+  }
+}
